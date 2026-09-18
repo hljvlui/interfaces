@@ -1,6 +1,27 @@
 form {
   width: 20%;
   margin: 0 auto;
+  border: 2px solid #333;
+  padding: 20px;
   display: flex;
   display: grid;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+
+  padding: 40px;
+}
+
+.mi-boton {
+    border-radius: 50px;
+    background: rgb(0, 17, 255);
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    font-weight: bold;
+
+    box-shadow:
+        8px 8px 16px rgba(0, 0, 0, 0.35),
+        -8px -8px 16px rgba(255, 255, 255, 0.25);
 }
