@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form styling */
+#taskForm {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#taskInput {
+    padding: 8px;
+    font-size: 14px;
+    width: 220px;
+}
+
+#addButton {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Centro y cuadro gris para la lista */
+.todo-box {
+    background: #e0e0e0; /* fondo gris */
+    padding: 16px;
+    width: 320px;
+    margin-top: 18px;
+    border-radius: 4px;
+}
+
+#todoList {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#todoList li {
+    padding: 6px 4px;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todoList li:last-child { border-bottom: none; }
+
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px 6px;
+}
+.delete-btn:hover { color: #c00; }
